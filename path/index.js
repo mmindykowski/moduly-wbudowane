@@ -8,3 +8,6 @@ console.log(filenameNoExt);
 
 const dirname = path.dirname(__dirname + "/tmp/index.html");
 console.log(dirname);
+
+const ext = path.extname("/tmp/index.html");
+console.log(ext);
