@@ -14,3 +14,8 @@ console.log(ext);
 
 const patseFile = path.parse(__dirname + "/tmp/index.html");
 console.log(patseFile);
+
+const newPath = path.join(__dirname, "tmp");
+
+console.log(newPath);
+
